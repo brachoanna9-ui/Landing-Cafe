@@ -1,12 +1,12 @@
-import { Login } from './pages/Auth/login'
-import './App.css'
+import React from 'react';
+import Login from './pages/Auth/login';
 
 function App() {
-  
-
   return (
-  <Login></Login>
-  )
+    <div>
+      <Login />
+    </div>
+  );
 }
 
-export default App
+export default App;
