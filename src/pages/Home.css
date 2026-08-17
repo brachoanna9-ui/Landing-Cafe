@@ -86,7 +86,7 @@
 
 .hero-image-container {
   width:100%;
-  aspect-ratio: 16 / 9;
+  height: 240px;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -261,5 +261,10 @@
   }
   .main-content {
     padding: 1.5rem;
+  }
+  .hero-image-container {
+    height: 240px;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    width: calc(100% - 3rem);
   }
 }
