@@ -1,0 +1,92 @@
+.menu-card {
+  background: #F4ead8;
+  padding: 16px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #EFE4DC;
+  box-shadow: 0 4px 20px rgba(61, 43, 34, 0.03);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(61, 43, 34, 0.08);
+}
+
+.menu-card-img-container {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu-card-img {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.menu-card:hover .menu-card-img {
+  transform: scale(1.05);
+}
+
+.menu-card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.menu-card-info h3 {
+  font-size: 1.15rem;
+  font-family: 'Merriweather', serif;
+  color: #3D2B22;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.menu-card-info p {
+  font-size: 0.9rem;
+  color: #7A6355;
+  line-height: 1.5;
+  margin: 0 0 1.5rem 0;
+  text-align: justify;
+}
+
+.menu-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #F5EBE4;
+  padding-top: 1rem;
+}
+
+.menu-card-price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #3D2B22;
+}
+
+.menu-card-btn {
+  background-color: #3D2B22;
+  color: #FFFFFF;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.menu-card-btn:hover {
+  background-color: #A1795F;
+  transform: scale(1.05);
+}
